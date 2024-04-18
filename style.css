@@ -1,0 +1,166 @@
+@import url(http://awebfont.ir/css?id=1116);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "B Yekan", tahoma, Arial;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header-right {
+  display: flex;
+}
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-right: 50px;
+}
+.menu-item {
+  padding: 10px 20px;
+  color: darkgray;
+}
+.menu-item:hover {
+  font-size: 17px;
+  color: blue;
+  cursor: pointer;
+}
+.header-left {
+  display: flex;
+  color: darkgray;
+}
+.header-left p {
+  padding: 5px 20px;
+}
+.header-left p:hover {
+  font-size: 17px;
+  color: blue;
+  cursor: pointer;
+}
+.header-login {
+  background-color: rgb(164, 164, 240);
+  padding: 0 20px;
+  margin-left: 10px;
+  border: 2px solid rgb(164, 164, 240);
+  border-radius: 30px;
+}
+.header-login:hover {
+  font-size: 17px;
+  color: blue;
+  cursor: pointer;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;
+}
+.header-bottom-right {
+  width: 40%;
+}
+.header-bottom-left {
+  padding-right: 20px;
+  width: 60%;
+}
+.title {
+  margin: 50px 0 10px;
+  color: #288ed9;
+}
+.desc {
+  color: #288ed9;
+  margin-bottom: 15px;
+}
+.info {
+  color: #7e7e7e;
+  line-height: 27px;
+  text-align: justify;
+}
+.host-section {
+  background: linear-gradient(
+    to bottom,
+    rgba(214, 238, 255, 0) 0,
+    #d6eeff 100%);
+}
+.host-section-title {
+  text-align: center;
+  padding-top: 100px;
+  margin: 50px auto;
+  
+}
+.host-list {
+display: flex;
+
+
+}
+.host-item {
+
+  margin: 0 10px;
+  padding: 40px 15px 20px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  text-align: justify;
+  color: #5a5656;
+  position: relative;
+}
+.host-item-title {
+  position: absolute;
+  width: 150px;
+  background-color: rgb(98, 98, 241);
+  color: #fff;
+  top: -20px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  padding: 5px 10px;
+}
+
+.feature{
+display: flex;
+align-items: center;
+}
+.feature-right{
+padding: 30px 50px;
+}
+.feature-right-desc{
+  color: #7e7e7e;
+  text-align: justify;
+  line-height: 30px;
+}
+.feature-right-title{
+color:rgb(98, 98, 241) ;
+margin: 50px 0 20px;
+
+}
+.feature-left{
+padding: 20px;
+margin: 40px 10px;
+
+}
+.feature:nth-child(even){
+  flex-direction: row-reverse;
+}
+.footer-section{
+text-align: center;
+}
+.socials{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  color: rgb(90, 89, 89);
+}
+.socials i{
+  padding: 5px 20px;
+}
+.footer-bottom{
+  padding: 30px 0;
+}
